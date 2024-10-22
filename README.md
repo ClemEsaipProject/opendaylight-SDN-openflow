@@ -7,12 +7,15 @@ une architecture de contrôle de réseau flexible et modulaire.(Linux fondation)
 **prérequis**:
 - java
 - unzip 
-- mininet 
+- mininet
+- python
 
 ```
   sudo apt update & upgrade -y
-  sudo apt-get unzip
-  sudo apt-get mininet
+  sudo apt-get install unzip
+  sudo apt-get install mininet
+  sudo apt-get install python3
+  
 ```
 -------------------------------------------------------------------
 **installation de JAVA**
@@ -29,14 +32,22 @@ sudo wget https://nexus.opendaylight.org/content/repositories/opendaylight.relea
 unzip karaf
 cd karaf/bin
 sudo ./karaf
-
 ```
+![image](https://github.com/user-attachments/assets/bf4e9a36-a4b1-4218-888e-8b985f70bd4a)
+
 
 **Prise en main d'Opendaylight**
 ```
-feature:install odl-restconf odl-l2switch-all odl-msdal-all odl-
+feature:install odl-restconf odl-l2switch-switch odl-dluxapps-topology odl-dluxapps-yangman odl-dluxapps-yangui
 ```
+```
+ip a or ifcong
+```
+recupere votre ip et ouvré votre navigateur à l'adresse http://votre_ip:8181/index.html#/
+![image](https://github.com/user-attachments/assets/ec083590-dfec-4d97-9fa4-d5baf133d9fc)
 
 
-
+Ajout des differentes équipements
+**script**
+download python files compo_topo.py
 
