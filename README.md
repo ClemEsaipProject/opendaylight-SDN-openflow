@@ -50,4 +50,9 @@ recupere votre ip et ouvré votre navigateur à l'adresse http://votre_ip:8181/i
 Ajout des differentes équipements
 **script**
 download python files compo_topo.py
+![image](https://github.com/user-attachments/assets/e82c3df4-7016-4eb4-a0b5-59583ca33c9d)
+
+use mininet for make simple request ``pingall` & `links` & `net`
+![image](https://github.com/user-attachments/assets/02ef416a-ab86-4244-a7c0-ae0fc625b353)
+
 
